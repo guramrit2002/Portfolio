@@ -1,21 +1,23 @@
+const slides = document.querySelectorAll('.project');
+let counter = 0;
 
-// function iconShow(){
+document.getElementById('navigate-left').addEventListener('click', () => {
+    counter--;
+    if (counter < 0) {
+        counter = slides.length - 1;
+    }
+    updateCarousel();
+});
 
-//     const skill = document.getElementById('skill1')
-//     const title = document.getElementById('skill-title1')
-//     const p1 = document.getElementById('num-project1')
+document.getElementById('navigate-right').addEventListener('click', () => {
+    counter++;
+    if (counter === slides.length) {
+        counter = 0;
+    }
+    updateCarousel();
+});
 
-//     skill.addEventListener('mouseover',()=>{
-//         p1.style.display = "block"
-//         p1.innerHTML = "4 Project"
-//         console.log(p1.style.display)
-//     })
-//     skill.addEventListener('mouseout',()=>{
-//         if(p1.style.display){
-//             console.log(p1.style.display)
-//             p1.style.display = "none"
-//         }
-//     })
-// }
-
-// iconShow()
+function updateCarousel() {
+    const percentage = -counter * 100;
+    document.querySelector('.project-container').style.transform = `translateX(${percentage}%)`;
+}
