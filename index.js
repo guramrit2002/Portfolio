@@ -21,3 +21,23 @@ function updateCarousel() {
     const percentage = -counter * 100;
     document.querySelector('.project-container').style.transform = `translateX(${percentage}%)`;
 }
+
+
+document.querySelector('.contact-form form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevents the default form submission
+
+    // Access form elements and their values
+    var name = this.querySelector('input[placeholder="Name"]').value;
+    var email = this.querySelector('input[placeholder="E-mail"]').value;
+    var content = this.querySelector('input[placeholder="Content"]').value;
+
+    // Do something with the form data (for example, log it to the console)
+    console.log('Name:', name);
+    console.log('Email:', email);
+    console.log('Content:', content);
+
+    // You can also send the data to a server using AJAX or fetch
+
+    // Reset the form if needed
+    // this.reset();
+});
