@@ -373,6 +373,6 @@ height: 100vh
   justify-content:center;
   align-items:flex-start;
 }
-.social .fa{
+#social .fa{
   font-size:20px;
 }
