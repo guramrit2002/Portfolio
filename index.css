@@ -398,3 +398,15 @@ height: 100vh
     width: 12rem;
     transition: all 1s ease-in-out;
 }
+#facebook:hover{
+  background:blue;
+}
+#twitter:hover{
+  background:#101111;
+}
+#linkedin:hover{
+  background:#135fbc;
+}
+#github:hover{
+  background:#201462;
+}
