@@ -97,6 +97,7 @@ height: 100vh
   border-radius:10px;
 }
 .social .btn-resume:hover{
+    background-color:#0d929e;
   transition:1s ease-in-out;
   border-radius:40px;
 }
