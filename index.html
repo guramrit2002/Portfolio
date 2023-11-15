@@ -1,275 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="index.css">
-  <title>Portfolio</title>
-</head>
-<body>
-<main>
-  <div class="sidebar">
-    <img src="Guramrit (2).JPG" alt="" srcset="" >
-    <a href="">ABOUT</a>
-    <a href="#s">SKILLS</a>
-    <a href="#project">PROJECTS</a>
-    <a href="#contact">CONTACT</a>
-    <!-- <a href=""></a> -->
-  </div>
-  <div class="content">
-  <div class="about">
-    <div class="name">
-      <h1><span class="firstname">GURAMRIT </span><span class="restname">PAL SINGH</span></h1>
-    </div>
-    <p class="description-text">WEB <span class="restname">DEVELOPER</span></p>
-    <p class="description-work">
-      I'm all about  Django, Django REST framework, Node Js and Express Js for web wizardry. Throw in some HTML, CSS and Javascript, and you've got me crafting cool and efficient solutions.     </p>
-    <p class="social">
-      <button class='btn-resume' id="resume">Download Resume </button>
-    </p>
-  </div>
-
-
-  
-  <div class="skills-section" id="s">
-    <h1><span class="firstname">S</span><span class="restname">KILLS</span></h1>
-    <div class="skills">
-      <div class="skill" id="skill1" >
-        <p id="skill-title1">HTML</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <a href="">ABOUT</a>
+      <a href="#s">SKILLS</a>
+      <a href="#project">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <main>
+      
+      <div class="sidebar">
+        <img src="Guramrit (2).JPG" alt="" srcset="" />
+        <a href="">ABOUT</a>
+        <a href="#s">SKILLS</a>
+        <a href="#project">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+        <!-- <a href=""></a> -->
       </div>
-      <div class="skill" id="skill2">
-        <p class="skill-title2">CSS</p>
+      <div class="content">
+        <div class="about">
+          <div class="name">
+            <h1>
+              <span class="firstname">GURAMRIT </span
+              ><span class="restname">PAL SINGH</span>
+            </h1>
+          </div>
+          <p class="description-text">
+            WEB <span class="restname">DEVELOPER</span>
+          </p>
+          <p class="description-work">
+            I'm all about Django, Django REST framework, Node Js and Express Js
+            for web wizardry. Throw in some HTML, CSS and Javascript, and you've
+            got me crafting cool and efficient solutions.
+          </p>
+          <p class="social">
+            <button class="btn-resume" id="resume">Download Resume</button>
+          </p>
+        </div>
+
+        <div class="skills-section" id="s">
+          <h1>
+            <span class="firstname">S</span><span class="restname">KILLS</span>
+          </h1>
+          <div class="skills">
+            <div class="skill" id="skill1">
+              <p id="skill-title1">HTML</p>
+            </div>
+            <div class="skill" id="skill2">
+              <p class="skill-title2">CSS</p>
+            </div>
+            <div class="skill" id="skill3">
+              <p class="skill-title3">JAVASCRIPT</p>
+            </div>
+            <div class="skill" id="skill4">
+              <p class="skill-title4">PYTHON</p>
+            </div>
+            <div class="skill" id="skill5">
+              <p class="skill-title5">DJANGO</p>
+            </div>
+            <div class="skill" id="skill6">
+              <p class="skill-title6">DRF</p>
+            </div>
+            <div class="skill" id="skill7">
+              <p class="skill-title7">SQL</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-section" id="project">
+          <h1>
+            <span class="firstname">PRO</span
+            ><span class="restname">JECTS</span>
+          </h1>
+
+          <div class="project-container">
+            <div class="project">
+              <div class="detail">
+                <h3 class="title">
+                  1. CSI <span class="restname">Web RestfulAPI</span>
+                </h3>
+                <p class="role" id="role-text">
+                  Contributed as "<u>Backend Developer</u>"
+                </p>
+                <div class="tech-tags">
+                  <p class="t1" title="For developing APIs">Django</p>
+                  <p class="t2" title="For developing RestFull APIs ">
+                    Django Rest Framework (DRF)
+                  </p>
+                  <p class="t3" title="For database">SQLite</p>
+                </div>
+                <div class="about-project">
+                  <h6>About Project</h6>
+                  <p class="about-text">
+                    This is a Django web application that serves as the backend
+                    for a CSI (Computer Society of India) chapter management
+                    system. It provides APIs for managing events, members, and
+                    registrations, and comes with built-in authentication and
+                    authorization features for secure access.
+                  </p>
+                </div>
+              </div>
+              <div class="links">
+                <a
+                  href="https://github.com/guramrit2002/csi_backend"
+                  id=""
+                  class="fa fa-github"
+                  title="GitHub Repository"
+                ></a>
+                <a
+                  href="https://csi-ipec-new.netlify.app/"
+                  class="fa fa-play link"
+                  title="Application Demo"
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <h3 class="title">
+                2. Django <span class="restname">Blogging Web Application</span>
+              </h3>
+              <p class="role" id="role-text">Personal Project</p>
+              <div class="tech-tags">
+                <p class="t1" title="For developing APIs">Django</p>
+                <p class="t2" title="For developing RestFull APIs ">HTML</p>
+                <p class="t2" title="For developing RestFull APIs ">
+                  Bootstrap
+                </p>
+                <p class="t3" title="For database">SQLite</p>
+              </div>
+              <div class="about-project">
+                <h6>About Project</h6>
+                <p class="about-text">
+                  It is a blogging web application where user can sign up and
+                  perform CRUD operations on their blogs with Django User
+                  Authentication and Authorization.
+                </p>
+              </div>
+              <div class="links">
+                <a
+                  href="https://github.com/guramrit2002/Buggsbunny-the-blogging-app.git"
+                  class="fa fa-github link"
+                  title="GitHub Repository"
+                ></a>
+                <a
+                  href="https://guramrit53.pythonanywhere.com/"
+                  class="fa fa-play link"
+                  title="Application Demo"
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <h3 class="title">3. ToDo <span class="restname">API</span></h3>
+              <p class="role" id="role-text">Personal Project</p>
+              <div class="tech-tags">
+                <p class="t1" title="For developing APIs">Django</p>
+                <p class="t2" title="For developing RestFull APIs ">
+                  Django Rest Framework (DRF)
+                </p>
+                <p class="t3" title="For database">SQLite</p>
+              </div>
+              <div class="about-project">
+                <h6>About Project</h6>
+                <p class="about-text">
+                  A To-Do API is a project that offers endpoints for creating,
+                  updating, and deleting tasks. It serves as a backend system,
+                  allowing developers to integrate task management functionality
+                  into their applications.
+                </p>
+              </div>
+              <div class="links">
+                <a
+                  href="https://github.com/guramrit2002/ToDoApp"
+                  class="fa fa-github link"
+                  title="GitHub Repository"
+                ></a>
+                <!-- <a href="" class="fa fa-play" title="Application Demo"></a> -->
+              </div>
+            </div>
+            <div class="project">
+              <h3 class="title">4. P<span class="restname">AWS</span></h3>
+              <p class="role" id="role-text">
+                Contributed as "<u>Backend Developer</u>"
+              </p>
+              <div class="tech-tags">
+                <p class="t1" title="For developing APIs">Django</p>
+                <p class="t2" title="For developing RestFull APIs ">HTML</p>
+                <p class="t2" title="For developing RestFull APIs ">CSS</p>
+                <p class="t2" title="For developing RestFull APIs ">
+                  JavaSCript
+                </p>
+                <p class="t3" title="For database">SQLite</p>
+              </div>
+              <div class="about-project">
+                <h6>About Project</h6>
+                <p class="about-text">
+                  PAWS is an interface between user who want to adopt a pet and
+                  who want to rehome there pet.They can send request to current
+                  owner of pet for adoption via e-mail and also can post there
+                  pet for rehome with user authentication
+                </p>
+              </div>
+              <div class="links">
+                <a
+                  href="https://github.com/guramrit2002/pawss.git"
+                  class="fa fa-github link"
+                  title="GitHub Repository"
+                ></a>
+                <!-- <a href="" class="fa fa-play" title="Application Demo"></a> -->
+              </div>
+            </div>
+            <div class="project">
+              <h3 class="title">5. Contact<span class="restname">API</span></h3>
+              <p class="role" id="role-text">Personal project</p>
+              <div class="tech-tags">
+                <p class="t1" title="For developing APIs">Node Js</p>
+                <p class="t2" title="For developing RestFull APIs ">
+                  Express Js
+                </p>
+                <p class="t2" title="For developing RestFull APIs ">Mongo Db</p>
+              </div>
+              <div class="about-project">
+                <h6>About Project</h6>
+                <p class="about-text">
+                  The Contact CRUD API is a web service that allows you to
+                  manage contact information. It enables you to perform basic
+                  CRUD (Create, Read, Update, Delete) operations on contact
+                  records.
+                </p>
+              </div>
+              <div class="links">
+                <a
+                  href="https://github.com/guramrit2002/ContactAPI"
+                  class="fa fa-github link"
+                  title="GitHub Repository"
+                ></a>
+                <!-- <a href="" class="fa fa-play" title="Application Demo"></a> -->
+              </div>
+            </div>
+          </div>
+
+          <div id="navigate">
+            <button href="" id="navigate-left" class="fa"><</button>
+            <button href="" id="navigate-right" class="fa">></button>
+          </div>
+        </div>
+
+        <div class="contact-section" id="contact">
+          <h1>
+            <span class="firstname">CON</span><span class="restname">TACT</span>
+          </h1>
+          <div class="contact-form">
+            <form action="" method="post">
+              <input type="text" placeholder="Name" />
+              <input type="email" name="E-mail" id="" placeholder="E-mail" />
+              <input
+                type="text"
+                name="Send"
+                id="content"
+                placeholder="Content"
+              />
+              <button id="btn-send">Send</button>
+            </form>
+          </div>
+          <div id="social">
+            <a href="#" class="fa fa-twitter" id="twitter"></a>
+            <a href="" class="fa fa-linkedin" id="linkedin"></a>
+            <a href="" class="fa fa-github" id="github"></a>
+          </div>
+        </div>
       </div>
-      <div class="skill" id="skill3">
-        <p class="skill-title3">JAVASCRIPT</p>
-      </div>
-      <div class="skill" id="skill4">
-        <p class="skill-title4">PYTHON</p>
-      </div>
-      <div class="skill" id="skill5">
-        <p class="skill-title5">DJANGO</p>
-      </div>
-      <div class="skill" id="skill6">
-        <p class="skill-title6">DRF</p>
-      </div>
-      <div class="skill" id="skill7">
-        <p class="skill-title7">SQL</p>
-      </div>  
-      
-    </div>
-    
-  </div>
-
-  <div class="project-section" id="project">
-    <h1><span class="firstname">PRO</span><span class="restname">JECTS</span></h1>
-
-<div class="project-container">
-  <div class="project">
-    <div class="detail">
-    <h3 class="title">
-      1. CSI <span class="restname">Web RestfulAPI</span> 
-    </h3>
-    <p class="role" id="role-text">
-      Contributed as "<u>Backend Developer</u>"
-    </p>
-    <div class="tech-tags">
-      <p class="t1" title="For developing APIs">
-        Django
-      </p>
-      <p class="t2" title="For developing RestFull APIs ">
-        Django Rest Framework (DRF)
-      </p>
-      <p class="t3" title="For database">
-        SQLite
-      </p>
-    </div>
-    <div class="about-project">
-      <h6>About Project</h6>
-      <p class="about-text">
-         This is a Django web application that serves as the backend for a CSI (Computer Society of India) chapter management system. It provides APIs for managing events, members, and registrations, and comes with built-in authentication and authorization features for secure access.
-      </p>
-    </div>
-  </div>
-    <div class="links">
-      
-      <a href="https://github.com/guramrit2002/csi_backend" id="" class="fa fa-github" title="GitHub Repository" ></a>
-      <a href="https://csi-ipec-new.netlify.app/" class="fa fa-play link" title="Application Demo"></a>
-    </div>
-    
-
-  </div>
-  <div class="project">
-    <h3 class="title">
-      2. Django <span class="restname">Blogging Web Application</span> 
-    </h3>
-    <p class="role" id="role-text">
-      Personal Project
-    </p>
-    <div class="tech-tags">
-      <p class="t1" title="For developing APIs">
-        Django
-      </p>
-      <p class="t2" title="For developing RestFull APIs ">
-        HTML
-      </p>
-      <p class="t2" title="For developing RestFull APIs ">
-        Bootstrap
-      </p>
-      <p class="t3" title="For database">
-        SQLite
-      </p>
-    </div>
-    <div class="about-project">
-      <h6>About Project</h6>
-      <p class="about-text">
-        It is a blogging web application where user can sign up and perform CRUD operations on their blogs with Django User
-        Authentication and Authorization.</p>
-    </div>
-    <div class="links">
-      
-      <a href="https://github.com/guramrit2002/Buggsbunny-the-blogging-app.git" class="fa fa-github link" title="GitHub Repository"></a>
-      <a href="https://guramrit53.pythonanywhere.com/" class="fa fa-play link" title="Application Demo"></a>
-    </div>
-    
-
-  </div>
-  <div class="project">
-    <h3 class="title">
-      3. ToDo <span class="restname">API</span> 
-    </h3>
-    <p class="role" id="role-text">
-      Personal Project
-    </p>
-    <div class="tech-tags">
-      <p class="t1" title="For developing APIs">
-        Django
-      </p>
-      <p class="t2" title="For developing RestFull APIs ">
-        Django Rest Framework (DRF)
-      </p>
-      <p class="t3" title="For database">
-        SQLite
-      </p>
-    </div>
-    <div class="about-project">
-      <h6>About Project</h6>
-      <p class="about-text">
-        A To-Do API is a project that offers endpoints for creating, updating, and deleting tasks. It serves as a backend system, allowing developers to integrate task management functionality into their applications.      </p>
-    </div>
-    <div class="links">
-      
-      <a href="https://github.com/guramrit2002/ToDoApp" class="fa fa-github link" title="GitHub Repository"></a>
-      <!-- <a href="" class="fa fa-play" title="Application Demo"></a> -->
-    </div>
-    
-
-  </div>
-  <div class="project">
-    <h3 class="title">
-      4. P<span class="restname">AWS</span> 
-    </h3>
-    <p class="role" id="role-text">
-      Contributed as "<u>Backend Developer</u>"
-    </p>
-    <div class="tech-tags">
-      <p class="t1" title="For developing APIs">
-        Django
-      </p>
-      <p class="t2" title="For developing RestFull APIs ">
-        HTML
-      </p>
-      <p class="t2" title="For developing RestFull APIs ">
-        CSS
-      </p>
-      <p class="t2" title="For developing RestFull APIs ">
-        JavaSCript
-      </p>
-      <p class="t3" title="For database">
-        SQLite
-      </p>
-    </div>
-    <div class="about-project">
-      <h6>About Project</h6>
-      <p class="about-text">
-        PAWS is an interface between user who want to adopt a pet and who want to rehome there pet.They can send request to current owner of pet for adoption via e-mail and also can post there pet for rehome with user authentication
-
-      </p>
-    </div>
-    <div class="links">
-      
-      <a href="https://github.com/guramrit2002/pawss.git" class="fa fa-github link" title="GitHub Repository"></a>
-      <!-- <a href="" class="fa fa-play" title="Application Demo"></a> -->
-    </div>
-    
-
-  </div>
-  <div class="project">
-    <h3 class="title">
-      5. Contact<span class="restname">API</span> 
-    </h3>
-    <p class="role" id="role-text">
-      Personal project
-    </p>
-    <div class="tech-tags">
-      <p class="t1" title="For developing APIs">
-        Node Js
-      </p>
-      <p class="t2" title="For developing RestFull APIs ">
-        Express Js
-      </p>
-      <p class="t2" title="For developing RestFull APIs ">
-        Mongo Db
-      </p>
-      
-    </div>
-    <div class="about-project">
-      <h6>About Project</h6>
-      <p class="about-text">
-        The Contact CRUD API is a web service that allows you to manage contact information. It enables you to perform basic CRUD (Create, Read, Update, Delete) operations on contact records.
-      </p>
-    </div>
-    <div class="links">
-      
-      <a href="https://github.com/guramrit2002/ContactAPI" class="fa fa-github link" title="GitHub Repository"></a>
-      <!-- <a href="" class="fa fa-play" title="Application Demo"></a> -->
-    </div>
-    
-
-  </div>
-</div>
-
-
-  
-    <div id="navigate">
-      <button href="" id="navigate-left"class="fa"><</button>
-      <button href="" id="navigate-right" class="fa" >></button>
-    </div>
-    
-  </div>
-
-
-  <div class="contact-section" id="contact">
-    <h1><span class="firstname">CON</span><span class="restname">TACT</span></h1>
-    <div class="contact-form">
-      <form action="" method="post">
-        <input type="text" placeholder="Name">
-        <input type="email" name="E-mail" id="" placeholder="E-mail">
-        <input type="text" name="Send" id="content" placeholder="Content">
-        <button id="btn-send">Send</button>
-      </form>
-    </div>
-    <div id='social'>
-        <a href="#" class="fa fa-twitter" id="twitter"></a>
-        <a href="" class="fa fa-linkedin" id="linkedin"></a>
-        <a href="" class="fa fa-github" id="github"></a>
-    </div>
-  </div>
-    
-
-
-</div>
-</main>
-<script src="index.js"></script>
-</body>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
