@@ -474,16 +474,24 @@ nav {
         justify-content: flex-start;
         align-items: flex-start;
         background-color: #0d929e;
-        /* padding: 0 1vh; */
         width: 100%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     }
 
-    nav a {
+    .n-link{
         margin: 2vh;
+        
+    }
+    
+    .n-link a{
         text-decoration: none;
         color: white;
+        margin: 0 2vh;
+    }
+
+    .n-link i{
+        display: none;
     }
 
     .content {
@@ -524,6 +532,26 @@ nav {
 }
 
 @media only screen and (max-width: 480px) {
+    .n-link i{
+        display: block;
+        border-radius: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .n-link a{
+        margin: 1rem 0;
+    }
+    .n-link{
+        width: 100%;
+    }
+    .tabs{
+        display: none;
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .skills-section {
         margin: 0 3rem;
     }

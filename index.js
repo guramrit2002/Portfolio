@@ -69,3 +69,13 @@ function linkChange(text) {
     githubLink1.title = text; // Change the title attribute to display text on hover
 }
 
+
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburgerIcon = document.getElementById('icon-ham');
+    const navLinks = document.getElementById('tab');
+
+    // Toggle the visibility of the navigation links when the hamburger icon is clicked
+    hamburgerIcon.addEventListener('click', function () {
+        navLinks.style.display = (navLinks.style.display === 'flex' || navLinks.style.display === '') ? 'none' : 'flex';
+    });
+});
