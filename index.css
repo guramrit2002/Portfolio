@@ -201,6 +201,8 @@ main {
 
 .project-section {
     /* height: 90vh; */
+    margin-top:40% ;
+    display: flex;
     padding-top: 3rem;
     display: flex;
     color: #495057;
