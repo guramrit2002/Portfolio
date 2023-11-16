@@ -70,12 +70,7 @@ function linkChange(text) {
 }
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    const hamburgerIcon = document.getElementById('icon-ham');
-    const navLinks = document.getElementById('tab');
-
-    // Toggle the visibility of the navigation links when the hamburger icon is clicked
-    hamburgerIcon.addEventListener('click', function () {
-        navLinks.style.display = (navLinks.style.display === 'flex' || navLinks.style.display === '') ? 'none' : 'flex';
-    });
+document.getElementById('icon-ham').addEventListener('click', function () {
+    const tab = document.getElementById('tab');
+    tab.classList.toggle('tab-visible');
 });
