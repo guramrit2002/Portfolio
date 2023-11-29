@@ -249,19 +249,14 @@ main {
 
 .role {
     font-size: 30px;
-    /* margin-bottom: 2vh; */
-
 }
 
 .tech-tags {
     font-size: 20px;
 }
 
-.t1,
-.t2,
-.t3 {
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+.tech-tags p{
+    margin:0.1rem;
     display: inline-block;
     background-color: #0d929e;
     padding: 1vw;
